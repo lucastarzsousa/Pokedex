@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  text-align: center;
+  background: linear-gradient(to top, #FF0000, #E60067, #D7008A, #FF1493, #FFC0CB);
+  min-height: 100vh;
+
+}
+
+
+main {
+  
+  display: inline-block;
+  margin-top: 2%;
+  padding: 15px;
+  position: relative;
+}
+
+
+
+
+
+.pokedex {
+  width: 100%;
+  max-width: 350px;
+  
+}
+
+
+.gif_pokemon{
+  position: absolute;
+  bottom: 49%;
+  left: 37%;
+  height: 18%;
+}
+
+
+.dados_pokemon {
+  position: absolute;
+  font-weight: 600;
+  color: #000;
+  bottom: 40%;
+  left: 28%;
+  font-size: clamp(8px, 5vw , 25px);
+  
+}
+
+.nome_pokemon{
+  color: #3a444d;
+  text-transform: capitalize;
+  font-size: 21px;
+}
+
+
+.form{
+  position: absolute;
+  width: 70%;
+  bottom: 26%;
+  left: 11%;
+  
+}
+
+.barra_busca{
+  width: 100%;
+  padding: 4%;
+  border: 3px solid #000;
+  border-radius: 8px;
+  font-weight: 600;
+  color: 3a444d;
+  font-size: clamp(8px, 5vw , 1rem);
+  box-shadow: -1px 3px 0 #888, -3px 5px 0 #333;
+}
+
+.botoes{
+  position: absolute;
+  bottom:10%;
+  left: 45%;
+  width: 60%;
+  transform:translate(-47%, 0);
+  display:flex;
+  gap: 25%
+}
+
+.botao{
+  width: 50%;
+  padding: 4%;
+  border: 3px solid #000;
+  border-radius: 8px;
+  font-weight: 600;
+  color: 3a444d;
+  font-size: clamp(8px, 5vw , 1rem);
+  box-shadow: -1px 3px 0 #888, -3px 5px 0 #333;
+}
+
+
+.botao:active{
+  box-shadow: inset -4px 4px 0 #222 ;
+}
