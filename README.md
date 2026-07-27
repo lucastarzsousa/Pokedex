@@ -1,5 +1,7 @@
 # Pokédex
 
+link: https://lucastarzsousa.github.io/JogoDaMemoria/
+
 Este projeto foi desenvolvido para praticar o consumo de APIs utilizando JavaScript. A aplicação busca informações diretamente da PokéAPI e exibe os dados de cada Pokémon de forma dinâmica.
 
 Além da integração com uma API externa, o projeto me permitiu praticar programação assíncrona, manipulação de JSON e atualização do conteúdo da página sem necessidade de recarregamento.
